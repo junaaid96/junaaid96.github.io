@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		    <nav>
+		      <ul>
+		        <li><a href="index.html">Home</a></li>
+		        <li><a href="about.html">About</a></li>
+		        <li>Register</li>
+		      </ul>
+		    </nav>
+	    </header>
+	    <section>
+	    	<div class=disp>
+				<h2>Register</h2>
+			</div>
+	    	<form method="GET">
+				First Name: <input type="text" name="firstname">
+				Last Name: <input type="text" name="lastname"><br>
+				Date of Birth: <input type="date" name="birthdate"><br>
+				Gender: <input type="radio" name="gender" value="male">Male
+						<input type="radio" name="gender" value="female">Female
+						<input type="radio" name="gender" value="other">Other<br>
+				E-mail: <input type="email" name="email" required><br>
+				Password: <input type="password" name="password" minlength="8"><br>
+				Interested: <input type="checkbox" name="interested" value="men">Men
+							<input type="checkbox" name="interested" value="women">Women<br>
+				Choose a Car: <select name="car">
+								<option value="volvo">Volvo</option>
+								<option value="saab">Saab</option>
+								<option value="marcedes">Marcedes</option>
+								<option value="audi">Audi</option>
+							  </select><br>
+				<input type="submit">
+				<input type="reset">
+			</form>
+	    </section>
+	    <footer>
+			This Website is Made with Love.
+		</footer>
+</body>
+</html>

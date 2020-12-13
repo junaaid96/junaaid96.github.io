@@ -1,0 +1,38 @@
+body{
+	background-image: url('background-image.jpg');
+	background-size: cover;
+	font-family: 'East Sea Dokdo', cursive;
+	font-size: 180%;
+}
+
+ul{
+	list-style: none;
+	background-color: #919191;
+}
+
+li{
+	display: inline-block;
+}
+
+h1, p, form{
+	text-align: center;
+}
+
+.disp{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h2{
+	border: 2px solid black;
+	display: inline-block;
+}
+
+footer{
+	background-color: #919191;
+	text-align: center;
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+}
